@@ -158,6 +158,13 @@ li:hover{
     margin: auto;
 }
 
+.hobbieslogos {
+    width: 60px;
+    height: 60px;
+    justify-content:space-around;
+    align-items: center;
+}
+
 
 .contact {
     text-align: center;
@@ -176,8 +183,18 @@ li:hover{
 .logo {
     width: 70px;
     height: 70px;
+    justify-content:space-around
 }
 
 a:visited {
     color: #000;
+}
+
+footer{
+    width: 200px;
+    height: 100px;
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
