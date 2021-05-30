@@ -104,8 +104,19 @@ li {
     margin: auto;
 }
 
+#pdeb {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
 
-
+#parcoursbastxt {
+    text-align: left;
+    justify-content: left;
+}
 
 ul {
     display: flex;
