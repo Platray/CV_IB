@@ -1,5 +1,5 @@
 .backgroundFull {
-    background-color: cornflowerblue;
+    background-color: rgb(182, 195, 221);
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -159,10 +159,15 @@ li:hover{
 }
 
 .hobbieslogos {
-    width: 60px;
+    
+    width: 125px;
     height: 60px;
     justify-content:space-around;
     align-items: center;
+}
+
+.hobbieslogo img {
+    display: block;
 }
 
 
@@ -191,10 +196,36 @@ a:visited {
 }
 
 footer{
-    width: 200px;
-    height: 100px;
+    
+    position: relative;
     background-color:darkslategray;
     color: white;
     text-align: center;
     padding: 15px;
+    
+}
+
+table {
+    border-collapse: separate;
+    border: 1px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    
+  }
+  
+  td {
+    border: 1px solid #ffffff;
+    padding: 30px;
+  }
+  
+  .ligne1 {
+    border-spacing: 50px;
+  }
+  
+  .ligne2 {
+    border-spacing: 50px;
+  }
+
+.txtContact {
+    margin: auto;
+    text-align: center;
 }
