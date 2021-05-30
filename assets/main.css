@@ -1,3 +1,11 @@
+* {
+    text-decoration: none;
+    font-family: cursive;
+    color : black;
+    text-align:center;
+    margin: auto;
+  }
+
 .backgroundFull {
     background-color: rgb(182, 195, 221);
 }
@@ -59,10 +67,10 @@
     color: black;
 }
 
-/* Make sure that padding behaves as expected */
+
 * {box-sizing:border-box}
 
-/* Container for skill bars */
+
 .container2 {
   border: solid 1px black;
   width: 100%; /* Full width */
@@ -71,17 +79,18 @@
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: center; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+  margin: 0;
 }
 
-.html {width: 70%; background-color: #04AA6D;} /* Green */
-.css {width: 60%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 75%; background-color: #808080;} /* Dark Grey */
-.SQL {width: 60%; background-color:turquoise;} /* Dark Grey */
+.html {width: 70%; background-color: #04AA6D;} 
+.css {width: 60%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 75%; background-color: #808080;} 
+.SQL {width: 60%; background-color:turquoise;} 
 
 li {
 
@@ -99,12 +108,10 @@ li {
 
 
 ul {
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-between;
-    
 }
 
 nav {
@@ -123,7 +130,7 @@ li:hover{
   
   li:last-child {
     border-right: none;
-  }
+}
 
 #parcours {
     text-align: center;
@@ -135,6 +142,10 @@ li:hover{
     text-decoration: none;
     margin: auto;
     
+}
+
+#directparcours {
+    margin: 0 auto;
 }
 
 #trait_dessus
@@ -229,3 +240,23 @@ table {
     margin: auto;
     text-align: center;
 }
+
+#mail {
+    color: black;
+}
+
+#mail:visited {
+    color: black;
+}
+
+.containerHobby {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    ;
+  }
+  
+  .containerItem {
+    width : 22%;
+  }
